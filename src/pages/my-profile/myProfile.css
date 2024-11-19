@@ -1,0 +1,203 @@
+.profile-container{
+    margin: 50px 100px;
+}
+
+.profile-container .user-name{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(56, 59, 62);
+    margin-bottom: 5px;
+}
+
+.name-line {
+    width: 70%;
+    height: 1px;
+    background-color: rgb(188, 188, 188);
+    margin-bottom: 20px;
+}
+.image-container{
+    display: flex;
+}
+
+.image-container img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.image-container .upload{
+    cursor: pointer;
+}
+
+.profile-info{
+    display: flex;
+}
+
+.info-1{
+    width: 50%;
+}
+
+.info-2{
+    width: 50%;
+}
+
+.profile-container span{
+    color: grey;
+    font-size: 14px;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.info-1 .email{
+    display: flex;
+    color: #4B5563;
+    margin-bottom: 10px;
+}
+
+.info-1 .phone{
+    display: flex;
+    color: hsl(215, 14%, 34%);
+    margin-bottom: 10px;
+}
+
+.info-1 .address{
+    display: flex;
+    color: hsl(215, 14%, 34%);
+}
+
+.email .text{
+    color: #3C96FF;
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.phone .text{
+    color: #3C96FF;
+    font-size: 14px;
+    margin-left: 110px;
+}
+
+.address .text{
+    color: #6B7280;
+    font-size: 14px;
+    margin-left: 100px;
+    line-height: 1.3;
+}
+
+.profile-button{
+    display: flex;
+    margin-top: 50px;
+}
+
+.info-2 .gender{
+    display: flex;
+    color: #4B5563;
+    margin-bottom: 10px;
+}
+
+.info-2 .dob{
+    display: flex;
+    color: #4B5563;
+    margin-bottom: 10px;
+}
+
+.gender .text{
+    color: #6B7280;
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.dob .text{
+    color: #6B7280;
+    font-size: 14px;
+    margin-left: 90px;
+}
+
+.profile-button button{
+    background-color: white;
+    border: 1px solid #5fb7ff;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color:#4B5563;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.profile-button button:hover{
+    border: 1.5px solid #5fb7ff;
+}
+
+.name-edit{
+    padding: 10px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(56, 59, 62);
+}
+
+.email-edit{
+    padding: 5px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    color: #3C96FF;
+    font-size: 14px;
+    margin-left: 95px;
+}
+
+.phone-edit{
+    padding: 5px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    color: #3C96FF;
+    font-size: 14px;
+    margin-left: 105px;
+}
+
+.address-edit{
+    padding: 5px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    color: #6B7280;
+    font-size: 14px;
+    margin-left: 95px;
+    margin-bottom: 5px;
+}
+
+.gender-edit{
+    padding: 5px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    color: #6B7280;
+    font-size: 14px;
+    margin-left: 95px;
+}
+
+.dob-edit{
+    padding: 5px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    color: #6B7280;
+    font-size: 14px;
+    margin-left: 90px;
+}
+
+.update-btn{
+    background-color: white;
+    border: 1px solid #5fb7ff;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color:#4B5563;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.update-btn:hover{
+    border: 1.5px solid #5fb7ff;
+}

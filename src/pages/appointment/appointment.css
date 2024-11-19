@@ -1,0 +1,184 @@
+.appointment-container{
+    display: flex;
+    margin: 20px 50px 0px 50px;
+    padding-bottom: 100px;
+}
+
+.appointment-image img{
+    width: 300px;
+    height: auto;
+    background-color: rgb(40, 189, 253);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.appointment-doctor{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid rgb(188, 202, 213);
+    padding: 43px 30px;
+    width: 100%;
+}
+
+.info-name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.info-name p{
+    margin-right: 5px;
+    font-size: 24px;
+}
+
+.info-name img{
+    width: 15px;
+    height: 15px;
+}
+
+.info-degree{
+    display: flex;
+    align-items: center;
+    color: #5d6979;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.info-degree p{
+    margin-right: 5px;
+}
+
+.info-degree .experience{
+    font-size: 10px;
+    padding: 3px 3px;
+    border: 1px solid rgb(188, 202, 213);
+    border-radius: 50px;
+}
+
+.info-about{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.info-about img{
+    width: 12px;
+    margin-left: 5px;
+}
+
+.about-content{
+    color: #5d6979;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.appointment-fee{
+    color: #5d6979;
+    font-size: 14px;
+}
+
+.appointment-fee span{
+    color: black;
+    font-weight: 600;
+}
+
+.booking-container{
+    margin-top: 50px;
+}
+
+.booking-container .title{
+    font-size: 16px;
+    color: #4f545b;
+    margin-bottom: 20px;
+}
+
+.booking-date{
+    display: flex;
+
+}
+
+.booking-date .date{
+    color: #4f545b;
+    margin-right: 10px;
+    padding: 20px 10px;
+    border: 1px solid rgb(188, 202, 213);
+    border-radius: 30px;
+    font-size: 14px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.booking-date p{
+    text-align: center;
+}
+
+.booking-date .number{
+    margin-top: 5px;
+}
+
+.booking-date .active{
+    color: white;
+    background-color: rgb(0, 115, 255);
+}
+
+.booking-time{
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+    overflow-x:auto;
+    width: 640px;
+    scrollbar-width: none;
+}
+
+.booking-time p{
+    margin-right: 10px;
+    white-space: nowrap;
+    padding: 5px 20px;
+    border: 1px solid rgb(188, 202, 213);
+    font-size: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.booking-time .active{
+    color: white;
+    background-color: rgb(0, 115, 255);
+}
+
+.booking-container button{
+    margin-top: 40px;
+    padding: 10px 0px;
+    width: 200px;
+    border: none;
+    background-color:  rgb(0, 115, 255);
+    color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.booking-container button:hover{
+    background-color:  rgb(69, 153, 255);
+    color: white;
+}
+
+
+@media (min-width: 1200px) {
+    .appointment-container {
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+
+    .appointment-doctor {
+        width: 900px;
+        padding: 53px 60px;
+    }
+
+    .about-content{
+        width: 700px;
+    }
+}

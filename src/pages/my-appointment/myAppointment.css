@@ -1,0 +1,117 @@
+.my-appointment-container{
+    margin: 50px 50px;
+}
+
+.my-appointment-container .title{
+    color: #4B5563;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gap-line{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(188, 188, 188);
+    margin-bottom: 20px;
+}
+
+.my-appointment{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.my-appointment .left{
+    display: flex;
+}
+
+.my-appointment img{
+    width: 180px;
+    height: 230px;
+    object-fit: cover;
+    background-color: rgb(231, 242, 255);
+    border-radius: 5px;
+}
+
+.my-appointment-info{
+    margin: 0px 30px;
+}
+
+.my-appointment-info .name{
+    color:#262626;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.my-appointment-info .speciality{
+    color:#6f7987;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.my-appointment-info span{
+    display: inline-block;
+    font-size: 18px;
+    color: #4B5563;
+    margin-bottom: 10px;
+}
+
+.my-appointment-info .line-1{
+    color:#6f7987;
+    line-height: 1.5;
+}
+
+.my-appointment-info .line-2{
+    color:#6f7987;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.my-appointment-info .date{
+    display: flex;
+}
+
+.my-appointment-info .time{
+    color:#6f7987;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+
+.my-appointment-button button{
+    width: 200px;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    color: #5b6777;
+    background-color: white;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.my-appointment-button .pay:hover{
+    background-color: rgb(0, 115, 255);
+    color: white;
+}
+
+.my-appointment-button .cancel:hover{
+    background-color: rgb(234, 70, 70);
+    color: white;
+}
+
+.illustrator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustrator img{
+    width: 500px;
+}
+
+.illustrator p{
+    font-size: 24px;
+    color: #4B5563;
+    word-spacing: 5px;
+}

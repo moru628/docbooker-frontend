@@ -1,0 +1,99 @@
+.doctor-title{
+    margin: 50px 50px;
+    color: #5d6979;
+    font-size: 18px;
+}
+
+.doctor-container{
+    display: flex;
+    margin: 0 50px;
+}
+
+.doctor-speciality {
+    margin-right: 50px;
+}
+
+.doctor-speciality p {
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid #a3b2c7;
+    border-radius: 5px;
+    color: #5d6979;
+    font-size: 14px;
+    cursor: pointer;
+    width: auto;
+}
+
+.doctor-speciality p:hover{
+    transform: scale(1.05);
+    border: 1.4px solid rgb(19, 129, 255);
+}
+
+.doctor-speciality .active {
+    background-color: rgb(213, 235, 255);
+}
+
+.doctor-data img{
+    width: 100%;
+    height: auto;
+}
+
+.doctor-data{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+}
+
+.doctor-data .card{
+    background-color: rgb(231, 242, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(216, 228, 240);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    width: 100%;
+    cursor: pointer;
+}
+
+.doctor-data .card:hover{
+    transform: translateY(-10px);
+}
+
+.card .doctor-info{
+    background-color: white;
+    padding: 20px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.doctor-info .first{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.doctor-info .dot{
+    width: 4px;
+    height: 4px;
+    background-color: rgb(11, 201, 11);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.doctor-info .status{
+    font-size: 10px;
+    color: rgb(129, 212, 129);
+}
+
+.doctor-info .name{
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.doctor-info .speciality{
+    font-size: 12px;
+    color:#5d6979;
+}

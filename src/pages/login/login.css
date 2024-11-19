@@ -1,0 +1,89 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card{
+    margin: 60px 0;
+    padding: 40px 40px;
+    border: 1px solid rgb(204, 216, 228);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgb(0,0,0,0.1);
+    width: 350px;
+}
+
+.login-card .title{
+    font-size: 18px;
+    color: rgb(68, 73, 77);
+    margin-bottom: 5px;
+}
+
+.login-card .subtitle{
+    color: #727a84;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.login-form p{
+    color: #727a84;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.login-form input{
+    width: 100%;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.password-wrap{
+    position: relative;
+}
+
+.login-form span{
+    position: absolute;
+    top: 32px;
+    right: 15px;
+}
+
+.login-card button{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    font-size: 12px;
+    background-color: rgb(0, 115, 255);
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.login-card button:hover{
+    background-color: rgb(44, 170, 254);
+}
+
+.login-card .bottom{
+    font-size: 12px;
+    color: #727a84;
+}
+
+.login-card span{
+    color: rgb(60, 131, 207);
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.login-card .notification{
+    color: white;
+    background-color: rgb(243, 86, 86);
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 12px;
+}

@@ -1,0 +1,46 @@
+.speciality-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
+    padding: 0 100px;
+    height: 500px;
+}
+
+.speciality-container h1{
+    font-size: 32px;
+    color: #1F2937;
+    margin-bottom: 15px;
+}
+
+.speciality-container p{
+    margin-bottom: 70px;
+    text-align: center;
+    color:#5d6979;
+    font-size: 14px;
+}
+
+.speciality-data{
+    display: flex;
+}
+
+.speciality-data a{
+    margin-right: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.speciality-data a:hover {
+    transform: translateY(-10px);
+}
+
+.speciality-data img{
+    width: 110px;
+}
+
+.speciality-data p{
+    font-size: 15px;
+    color: #4B5563;
+    margin-top: 10px;
+}
